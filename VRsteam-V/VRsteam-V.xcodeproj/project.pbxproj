@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61F76A2F2F56BC4800AE4BAD /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 61F76A2E2F56BC4800AE4BAD /* RealityKitContent */; };
+		61FF7D472F601B1100B1B004 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 61FF7D462F601B1100B1B004 /* WebRTC */; };
+		61FF7D8C2F602D3300B1B004 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 61FF7D8B2F602D3300B1B004 /* WebRTC */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61F76A3E2F56BC4900AE4BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F76A212F56BC4800AE4BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F76A282F56BC4800AE4BAD;
+			remoteInfo = "VRsteam-V";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61F76A292F56BC4800AE4BAD /* VRsteam-V.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VRsteam-V.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F76A2D2F56BC4800AE4BAD /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		61F76A3D2F56BC4900AE4BAD /* VRsteam-VTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VRsteam-VTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		61F76A2B2F56BC4800AE4BAD /* VRsteam-V */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "VRsteam-V";
+			sourceTree = "<group>";
+		};
+		61F76A402F56BC4900AE4BAD /* VRsteam-VTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "VRsteam-VTests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61F76A262F56BC4800AE4BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F76A2F2F56BC4800AE4BAD /* RealityKitContent in Frameworks */,
+				61FF7D8C2F602D3300B1B004 /* WebRTC in Frameworks */,
+				61FF7D472F601B1100B1B004 /* WebRTC in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F76A3A2F56BC4900AE4BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61F76A202F56BC4800AE4BAD = {
+			isa = PBXGroup;
+			children = (
+				61F76A2B2F56BC4800AE4BAD /* VRsteam-V */,
+				61F76A2C2F56BC4800AE4BAD /* Packages */,
+				61F76A402F56BC4900AE4BAD /* VRsteam-VTests */,
+				61FF7D3F2F6018AC00B1B004 /* Frameworks */,
+				61F76A2A2F56BC4800AE4BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61F76A2A2F56BC4800AE4BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F76A292F56BC4800AE4BAD /* VRsteam-V.app */,
+				61F76A3D2F56BC4900AE4BAD /* VRsteam-VTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F76A2C2F56BC4800AE4BAD /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				61F76A2D2F56BC4800AE4BAD /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		61FF7D3F2F6018AC00B1B004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61F76A282F56BC4800AE4BAD /* VRsteam-V */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F76A442F56BC4900AE4BAD /* Build configuration list for PBXNativeTarget "VRsteam-V" */;
+			buildPhases = (
+				61F76A252F56BC4800AE4BAD /* Sources */,
+				61F76A262F56BC4800AE4BAD /* Frameworks */,
+				61F76A272F56BC4800AE4BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				61F76A2B2F56BC4800AE4BAD /* VRsteam-V */,
+			);
+			name = "VRsteam-V";
+			packageProductDependencies = (
+				61F76A2E2F56BC4800AE4BAD /* RealityKitContent */,
+				61FF7D462F601B1100B1B004 /* WebRTC */,
+				61FF7D8B2F602D3300B1B004 /* WebRTC */,
+			);
+			productName = "VRsteam-V";
+			productReference = 61F76A292F56BC4800AE4BAD /* VRsteam-V.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61F76A3C2F56BC4900AE4BAD /* VRsteam-VTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F76A492F56BC4900AE4BAD /* Build configuration list for PBXNativeTarget "VRsteam-VTests" */;
+			buildPhases = (
+				61F76A392F56BC4900AE4BAD /* Sources */,
+				61F76A3A2F56BC4900AE4BAD /* Frameworks */,
+				61F76A3B2F56BC4900AE4BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F76A3F2F56BC4900AE4BAD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				61F76A402F56BC4900AE4BAD /* VRsteam-VTests */,
+			);
+			name = "VRsteam-VTests";
+			packageProductDependencies = (
+			);
+			productName = "VRsteam-VTests";
+			productReference = 61F76A3D2F56BC4900AE4BAD /* VRsteam-VTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61F76A212F56BC4800AE4BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					61F76A282F56BC4800AE4BAD = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					61F76A3C2F56BC4900AE4BAD = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 61F76A282F56BC4800AE4BAD;
+					};
+				};
+			};
+			buildConfigurationList = 61F76A242F56BC4800AE4BAD /* Build configuration list for PBXProject "VRsteam-V" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61F76A202F56BC4800AE4BAD;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				61FF7D452F601B1100B1B004 /* XCRemoteSwiftPackageReference "webrtc-xcframework" */,
+				61FF7D8A2F602D3300B1B004 /* XCRemoteSwiftPackageReference "WebRTC" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 61F76A2A2F56BC4800AE4BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61F76A282F56BC4800AE4BAD /* VRsteam-V */,
+				61F76A3C2F56BC4900AE4BAD /* VRsteam-VTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61F76A272F56BC4800AE4BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F76A3B2F56BC4900AE4BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61F76A252F56BC4800AE4BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F76A392F56BC4900AE4BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61F76A3F2F56BC4900AE4BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61F76A282F56BC4800AE4BAD /* VRsteam-V */;
+			targetProxy = 61F76A3E2F56BC4900AE4BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61F76A452F56BC4900AE4BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWMBS4JL44;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VRsteam.VRsteam-V";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		61F76A462F56BC4900AE4BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWMBS4JL44;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VRsteam.VRsteam-V";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		61F76A472F56BC4900AE4BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GWMBS4JL44;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		61F76A482F56BC4900AE4BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GWMBS4JL44;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		61F76A4A2F56BC4900AE4BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWMBS4JL44;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VRsteam.VRsteam-VTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRsteam-V.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VRsteam-V";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		61F76A4B2F56BC4900AE4BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWMBS4JL44;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VRsteam.VRsteam-VTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRsteam-V.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VRsteam-V";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61F76A242F56BC4800AE4BAD /* Build configuration list for PBXProject "VRsteam-V" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F76A472F56BC4900AE4BAD /* Debug */,
+				61F76A482F56BC4900AE4BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F76A442F56BC4900AE4BAD /* Build configuration list for PBXNativeTarget "VRsteam-V" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F76A452F56BC4900AE4BAD /* Debug */,
+				61F76A462F56BC4900AE4BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F76A492F56BC4900AE4BAD /* Build configuration list for PBXNativeTarget "VRsteam-VTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F76A4A2F56BC4900AE4BAD /* Debug */,
+				61F76A4B2F56BC4900AE4BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		61FF7D452F601B1100B1B004 /* XCRemoteSwiftPackageReference "webrtc-xcframework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/livekit/webrtc-xcframework.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 125.6422.33;
+			};
+		};
+		61FF7D8A2F602D3300B1B004 /* XCRemoteSwiftPackageReference "WebRTC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stasel/WebRTC.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 141.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		61F76A2E2F56BC4800AE4BAD /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		61FF7D462F601B1100B1B004 /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61FF7D452F601B1100B1B004 /* XCRemoteSwiftPackageReference "webrtc-xcframework" */;
+			productName = WebRTC;
+		};
+		61FF7D8B2F602D3300B1B004 /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61FF7D8A2F602D3300B1B004 /* XCRemoteSwiftPackageReference "WebRTC" */;
+			productName = WebRTC;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 61F76A212F56BC4800AE4BAD /* Project object */;
+}
